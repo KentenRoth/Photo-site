@@ -50,3 +50,22 @@ button {
     padding: 0 1.6rem;
 }
 
+/* Header */
+
+.header {
+    display: block;
+    height: 45rem;
+}
+
+.header img {
+    border-bottom: 3px solid rgb(136, 0, 255);
+    height: 50rem;
+    object-fit: cover;
+    width: 100%
+}
+
+
+
+
+
+
