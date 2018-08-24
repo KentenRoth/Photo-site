@@ -111,6 +111,7 @@ p {
 
 .about--image img {
     border: 1px solid rgb(136, 0, 255);
+    box-shadow: 0 0 15px 5px rgba(136, 0 , 255, .6);
     border-radius: 5px;
     height: 175px;
     width: 175px;
@@ -119,4 +120,72 @@ p {
 
 .right {
     margin: auto;
+}
+
+/* Projects Nature */
+
+.project--header {
+    background-size: cover;
+    background-image: url('/images/nature4.jpg');
+    background-repeat: no-repeat;
+    border-bottom: 3px solid rgb(119,203,65);
+    display: block;
+    width: 100%;
+}
+
+.project--header img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.image--big {
+    background-image: url('/images/nature.jpg');
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 5px rgba(255,255,255, .4);
+    height: 36rem;
+    width: 36rem;
+}
+
+.image {
+    background: blue;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 15px 5px rgba(255,255,255, .4);
+    height: 17rem;
+    width: 17rem;
+}
+
+.one { grid-area: one; }
+
+.two { 
+    background-image: url('/images/nature2.jpg');
+    background-size: cover;
+    grid-area: two; 
+}
+.three {
+    background-image: url('/images/nature3.jpg');
+    background-size: cover;
+    grid-area: three; 
+}
+.four { 
+    background-image: url('/images/nature5.jpg');
+    background-size: cover;
+    grid-area: four; 
+}
+
+.five { 
+    background-image: url('/images/nature6.jpg');
+    background-size: cover;
+    grid-area: five; }
+
+.grid--container__nature {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-areas: 
+    'one one two three'
+    'one one four five';
+    padding: 8rem 0 8rem 0;
 }
