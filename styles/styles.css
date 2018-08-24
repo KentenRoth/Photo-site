@@ -45,8 +45,8 @@ button {
 .col-12 {width: 100%;}
 
 .container {
-    max-width: 60rem;
-    margin: 0 auto;
+    max-width: 80rem;
+    margin: 0 auto; 
     padding: 0 1.6rem;
 }
 
@@ -54,18 +54,69 @@ button {
 
 .header {
     display: block;
-    height: 45rem;
+    height: 50rem;
 }
 
 .header img {
-    border-bottom: 3px solid rgb(136, 0, 255);
+    border-bottom: 3px solid rgb(61, 233, 233);
     height: 50rem;
     object-fit: cover;
-    width: 100%
+    width: 100%;
 }
 
+/* About */
 
+.about {
+    background: black;
+    border-bottom: 3px solid rgb(136, 0, 255);
+    padding-bottom: 2rem;
+}
 
+.about--profile {
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: -150px;
+    position: relative;
+}
 
+.about--profile img{
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(61, 233, 233, .5);
+    height: 300px;
+    width: 300px;
+}
+.about--header h1 {
+    color: #D7D7D7;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
 
+p {
+    color: #D7D7D7;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    text-indent: 3rem;
+}
 
+.about--image {
+    border-radius: 5px;
+    height: 175px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    width: 175px;
+}
+
+.about--image img {
+    border: 1px solid rgb(136, 0, 255);
+    border-radius: 5px;
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
+}
+
+.right {
+    margin: auto;
+}
