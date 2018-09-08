@@ -105,7 +105,7 @@ li a {
 /* Landing Page */
 
 .header {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.15)), url('/images/nature.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.15)), url('/images/nature/nature.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
