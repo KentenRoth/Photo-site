@@ -138,7 +138,7 @@ li a {
 }
 
 .header--button {
-    background: rgb(0, 81, 255, 0.9);
+    background-color: rgba(0, 81, 255, 0.9);
     border: none;
     border-radius: 10px;
     color: rgb(182, 182, 182);

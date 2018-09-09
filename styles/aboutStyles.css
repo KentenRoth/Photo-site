@@ -65,11 +65,11 @@ button {
     overflow: hidden;
 }
 
-li {
+.navbar--li {
     display: inline-block;
 }
 
-li a {
+.navbar--li .navbar--a {
     color: rgb(182, 182, 182);
     display: inline-block;
     padding: 1.8rem 2rem 1.6rem 2rem;
@@ -105,7 +105,7 @@ li a {
     background-image: url('/images/header.jpg');
     background-size: cover;
     width: 100%;
-    height: 65rem;
+    height: 55rem;
 }
 
 .profile img {
@@ -138,4 +138,9 @@ p {
     background: rgb(138, 138, 138);
     padding: 3rem 0;
     text-align: center;
+}
+
+.list { 
+    text-align: center;
+    margin: 2rem;
 }
