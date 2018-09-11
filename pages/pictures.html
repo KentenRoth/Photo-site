@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Photography Website</title>
+    <link rel="stylesheet" href="/styles/pictureStyles.css" type="text/css">
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+</head>
+
+
+
+<body>
+    <div class="navbar">
+        <ul class="navbar--ul">
+            <li class="navbar--li" style="float:left">
+                <a class="navbar--a" href="../">Home</a>
+            </li>
+            <li class="navbar--li active">
+                <a class="navbar--a" href="about.html">About</a>
+            </li>
+            <!-- <li class="navbar--li">
+                        <a class="navbar--a" href="price.html">Pricing</a>
+                    </li> -->
+            <li class="navbar--li">
+                <button onclick="window.location.href='/pages/pictures.html'" class="navbar--button">Pictures</button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container--image">
+        <div class="images">
+            <img class="myImages" src="../images/nature/nature4.jpg">
+            <img class="myImages" src="../images/nature/nature5.jpg">
+            <img class="myImages" src="../images/nature/nature6.jpg">
+            <img class="myImages" src="../images/nature/nature2.jpg">
+            <img class="myImages" src="../images/nature/nature3.jpg">
+            <button class="button--left" onclick="plusOne(-1)">
+                <i class="fas fa-angle-left fa-5x"></i>
+            </button>
+            <button style="float:right" class="button--right" onclick="plusOne(1)">
+                <i class="fas fa-angle-right fa-5x"></i>
+            </button>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="/scripts/app.js"></script>
+</body>
+
+
+
+
+
+
+
+
+</html>
