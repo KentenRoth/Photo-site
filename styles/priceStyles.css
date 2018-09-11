@@ -43,7 +43,7 @@ button {
 .col-12 {width: 100%;}
 
 .container {
-    max-width: 80rem;
+    max-width: 100rem;
     margin: 0 auto; 
     padding: 0 1.6rem;
 }
@@ -78,7 +78,7 @@ li a {
 
 .navbar--button {
     background: none;
-    border: 3px solid rgb(0, 81,255);
+    border: 3px solid rgb(3, 198, 16);
     border-radius: 4px;
     color: rgb(182, 182, 182);
     font-size: 1.4rem;
@@ -91,10 +91,20 @@ li a {
     transition: .5s;
 }
 .navbar--button:hover {
-    background: rgb(0, 81,255);
+    background: rgb(3, 198, 16);
+    color: black;
 }
 
 .active {
     font-weight: 600;
-    border-bottom: 3px solid rgb(0, 81,255);
+    border-bottom: 3px solid rgb(3, 198, 16);
+}
+
+/* Price */
+
+.header {
+    background-image: url('/images/header.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 55rem;
 }
