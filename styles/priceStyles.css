@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background: rgb(230, 230, 230);
+    background: rgb(138, 138, 138);
     font-size: 1.6rem;
 }
 
@@ -65,11 +65,11 @@ button {
     overflow: hidden;
 }
 
-li {
+.navbar--li {
     display: inline-block;
 }
 
-li a {
+.navbar--li .navbar--a {
     color: rgb(182, 182, 182);
     display: inline-block;
     padding: 1.8rem 2rem 1.6rem 2rem;
@@ -107,4 +107,20 @@ li a {
     background-size: cover;
     width: 100%;
     height: 55rem;
+}
+
+.card--best {
+    margin: 3rem;
+    background-color: rgb(167, 167, 167);
+    border: 3px solid rgb(3, 198, 16);
+    border-radius: 30px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.card--regular {
+    margin-top: 2rem;
+    background-color: rgb(167, 167, 167);
+    border: 3px solid rgb(70, 70, 70);
+    height: 15rem;
 }
