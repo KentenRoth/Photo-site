@@ -1,3 +1,48 @@
-h1 {
-    color: Blue;
+.navbar {
+    background: rgba(0, 0, 0, 0.9);
+    font-size: 1.8rem;
+    border-bottom: solid 1px rgb(0, 81, 255);
+}
+
+.navbar-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: rgb(210, 210, 210);
+    display: inline-block;
+    padding: 1.8rem 2rem 1.6rem 2rem;
+    text-decoration: none;
+}
+
+button {
+    background: transparent;
+    border: solid 3px rgb(0, 81, 255);
+    border-radius: 15px;
+    color: rgb(210, 210, 210);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 2rem 0 1rem;
+    padding: 3px 20px 3px 20px;
+
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: rgb(0, 81, 255);
+    transform: scale(1.1);
+}
+
+.home {
+    float: left;
 }
