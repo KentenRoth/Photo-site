@@ -1,5 +1,5 @@
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.55)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
         url("../images/nature.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -7,4 +7,47 @@
     height: 100vh;
     position: relative;
     width: 100%;
+}
+
+.content-box {
+    color: rgb(182, 182, 182);
+    height: 20rem;
+    font-family: Courgette;
+    margin: auto;
+    max-width: 80rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-h1 {
+    font-size: 3.8rem;
+    font-style: italic;
+}
+
+.header-h2 {
+    margin-top: 1.8rem;
+    text-align: center;
+}
+
+.header-button {
+    background: rgb(0, 81, 255);
+    border: none;
+    border-radius: 10px;
+    color: rgb(210, 210, 210);
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 17px 50px;
+
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    transition: 0.4s;
+}
+.header-button:hover {
+    transform: scale(1.1);
 }
