@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Nav from "./Nav";
 import Header from "./Header";
 import About from "./About";
-import Gallary from "./Gallary";
+import Gallery from "./Gallery";
 import Footer from "./Footer";
 import "./App.css";
 
@@ -13,7 +13,7 @@ class App extends Component {
                 <Nav />
                 <Header />
                 <About />
-                <Gallary />
+                <Gallery />
                 <Footer />
             </div>
         );

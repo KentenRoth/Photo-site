@@ -1,6 +1,6 @@
 import React from "react";
 import PhotoList from "./PhotoList";
-import "./Gallary.css";
+import "./Gallery.css";
 
 const Gallary = () => {
     return (
