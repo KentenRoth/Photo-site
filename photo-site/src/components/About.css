@@ -1,5 +1,5 @@
 .about {
-    background: rgb(150, 150, 150);
+    background: rgb(190, 190, 190);
     padding: 25px;
 }
 
@@ -8,6 +8,7 @@
 }
 
 .about-words {
+    font-family: Raleway;
     margin: auto;
     max-width: 600px;
     text-align: center;
