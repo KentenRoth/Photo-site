@@ -1,5 +1,5 @@
-import React from "react"
-import "./Equipment.css"
+import React from "react";
+import "./Equipment.css";
 
 const Equipment = () => {
     return (
@@ -8,7 +8,7 @@ const Equipment = () => {
             <div className="row equipment-row">
                 <div className="col-4 col-left">
                     <div className="equip-icon">
-                        <i class="fas fa-camera-retro fa-3x" />
+                        <i className="fas fa-camera-retro fa-3x" />
                     </div>
                     <div className="equip-content">
                         <p>
@@ -44,7 +44,7 @@ const Equipment = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Equipment
+export default Equipment;
