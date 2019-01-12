@@ -1,10 +1,10 @@
-import React from "react"
-import Equipment from "./Equipment"
-import "./About.css"
+import React from "react";
+import Equipment from "./Equipment";
+import "./About.css";
 
 const About = () => {
     return (
-        <div className="about">
+        <div id="about" className="about">
             <div className="container">
                 <div className="about-header">
                     <h1 className="title-header">About Me</h1>
@@ -27,7 +27,7 @@ const About = () => {
             </div>
             <Equipment />
         </div>
-    )
-}
+    );
+};
 
-export default About
+export default About;

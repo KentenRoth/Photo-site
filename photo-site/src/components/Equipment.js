@@ -20,7 +20,7 @@ const Equipment = () => {
                 </div>
                 <div className="col-4 col-mid">
                     <div className="equip-icon">
-                        <i class="fas fa-desktop fa-3x" />
+                        <i className="fas fa-desktop fa-3x" />
                     </div>
                     <div className="equip-content">
                         <p>
@@ -32,7 +32,7 @@ const Equipment = () => {
                 </div>
                 <div className="col-4 col-right">
                     <div className="equip-icon">
-                        <i class="far fa-save fa-3x" />
+                        <i className="far fa-save fa-3x" />
                     </div>
                     <div className="equip-content">
                         <p>

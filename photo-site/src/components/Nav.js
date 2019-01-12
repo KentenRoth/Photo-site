@@ -2,6 +2,10 @@ import React from "react";
 import "./Nav.css";
 
 const Nav = () => {
+    const toGallery = () => {
+        window.location = "#gallery";
+    };
+
     return (
         <div className="navbar">
             <ul className="navbar-ul">
@@ -12,7 +16,9 @@ const Nav = () => {
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <button>Images</button>
+                    <form>
+                        <button onClick={toGallery()}>Images</button>
+                    </form>
                 </li>
             </ul>
         </div>

@@ -2,13 +2,12 @@ import React from "react";
 import Photo from "./Photo";
 import "./PhotoList.css";
 
-const PhotoList = () => {
-    return (
-        <div>
-            <h1>PhotoList</h1>
-            <Photo />
-        </div>
-    );
+const PhotoList = props => {
+    const photos = props.photos.map(photo => {
+        return <Photo key={photo.id} photo={photo} />;
+    });
+
+    return <div className="image-list">{photos}</div>;
 };
 
 export default PhotoList;

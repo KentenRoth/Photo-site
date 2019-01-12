@@ -1,12 +1,15 @@
 import React from "react";
 import "./Photo.css";
 
-const Photo = () => {
-    return (
-        <div>
-            <h1>Photo</h1>
-        </div>
-    );
-};
+class Photo extends React.Component {
+    render() {
+        const { description, urls } = this.props.photo;
+        return (
+            <div>
+                <img alt={description} src={urls.thumb} />
+            </div>
+        );
+    }
+}
 
 export default Photo;

@@ -2,6 +2,10 @@ import React from "react";
 import "./Header.css";
 
 const Header = () => {
+    const toGallery = () => {
+        window.location = "#gallery";
+    };
+
     return (
         <div className="header">
             <div className="container">
@@ -12,7 +16,14 @@ const Header = () => {
                     </h1>
                     <h2 className="header-h2">-Ambrose Bierce</h2>
                     <div>
-                        <button className="header-button">My Gallery</button>
+                        <form>
+                            <button
+                                className="header-button"
+                                onClick={toGallery()}
+                            >
+                                My Gallery
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
