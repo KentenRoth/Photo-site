@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import unsplash from "../apis/unsplash";
+import unsplash from "../../apis/unsplash";
 import PhotoList from "./PhotoList";
 import "./Gallery.css";
 

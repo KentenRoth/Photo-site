@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Nav from "./Nav";
 import Header from "./Header";
-import About from "./About";
-import Gallery from "./Gallery";
+import About from "./About/About";
+import Gallery from "./Gallery/Gallery";
 import Footer from "./Footer";
 import "./App.css";
 
