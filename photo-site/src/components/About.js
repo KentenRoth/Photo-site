@@ -1,6 +1,6 @@
-import React from "react";
-import Equipment from "./Equipment";
-import "./About.css";
+import React from "react"
+import Equipment from "./Equipment"
+import "./About.css"
 
 const About = () => {
     return (
@@ -24,10 +24,10 @@ const About = () => {
                         a! Est ullam aliquid magnam possimus culpa voluptatum.
                     </p>
                 </div>
-                <Equipment />
             </div>
+            <Equipment />
         </div>
-    );
-};
+    )
+}
 
-export default About;
+export default About
