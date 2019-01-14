@@ -2,29 +2,40 @@ import React from "react";
 import "./Photo.css";
 
 class Photo extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { spans: 0 };
+        this.imageRef = React.createRef();
+    }
+
+    componentDidMount() {
+        this.imageRef.current.addEventListener("load", this.setSpans);
+    }
+
+    setSpans = () => {
+        const height = this.imageRef.current.clientHeight;
+
+        const spans = Math.ceil(height / 11);
+
+        this.setState({ spans });
+    };
+
     render() {
-        const { description, urls, user } = this.props.photo;
-        const { profile_image, name, portfolio_url } = this.props.photo.user;
+        const { description, urls } = this.props.photo;
         return (
-            <div className="photo-card">
-                <div className="card-content">
-                    <div className="row">
-                        <div className="col-9">
-                            <img alt={description} src={urls.thumb} />
-                        </div>
-
-                        <div className="col-3">
-                            <p>{name}</p>
-
-                            <a href={this.props.photo.links.html}>
-                                Unspash Site
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div style={{ gridRowEnd: `span ${this.state.spans}` }}>
+                <a href={this.props.photo.links.html}>
+                    <img
+                        ref={this.imageRef}
+                        alot={description}
+                        src={urls.small}
+                    />
+                </a>
             </div>
         );
     }
 }
 
 export default Photo;
+
+//

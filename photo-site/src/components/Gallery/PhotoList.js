@@ -7,7 +7,7 @@ const PhotoList = props => {
         return <Photo key={photo.id} photo={photo} />;
     });
 
-    return <div className="margin">{photos}</div>;
+    return <div className="photo-list">{photos}</div>;
 };
 
 export default PhotoList;

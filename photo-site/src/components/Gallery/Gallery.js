@@ -10,8 +10,7 @@ class Gallary extends Component {
         const response = await unsplash.get("/search/photos", {
             params: {
                 query: "mountains",
-                orientation: "landscape",
-                per_page: 4
+                per_page: 16
             }
         });
         this.setState({ images: response.data.results });
@@ -24,13 +23,8 @@ class Gallary extends Component {
                         <h1>Gallery Section</h1>
                     </div>
                 </div>
-                <div className="big-container">
-                    <div className="row">
-                        <div className="col-9" />
-                        <div className="col-3">
-                            <PhotoList photos={this.state.images} />
-                        </div>
-                    </div>
+                <div className="gallery-container">
+                    <PhotoList photos={this.state.images} />
                 </div>
             </div>
         );
