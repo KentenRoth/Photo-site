@@ -6,6 +6,7 @@
 }
 
 .photo-list img {
+    border-radius: 10px;
     transition: 0.2s;
     width: 250px;
 }

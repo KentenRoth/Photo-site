@@ -1,9 +1,10 @@
 .about {
     background: rgb(190, 190, 190);
+    border-top: 1px solid rgb(0, 81, 255);
     padding: 25px;
 }
 
-.about-header {
+.title-header {
     padding-bottom: 25px;
 }
 
@@ -16,15 +17,15 @@
 }
 
 .image-box {
+    background-image: url("../../images/profile.jpeg");
     margin: auto;
     height: 200px;
     width: 200px;
-    background: blue;
     border-radius: 50%;
     margin-bottom: 25px;
 }
 
-.title-header {
+.title-h1 {
     text-align: center;
     font-family: merriweather;
     font-style: italic;

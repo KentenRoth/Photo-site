@@ -17,10 +17,10 @@ class Gallary extends Component {
     }
     render() {
         return (
-            <div id="gallery">
+            <div id="gallery" className="gallery">
                 <div className="container">
                     <div className="title-header">
-                        <h1>Gallery Section</h1>
+                        <h1 className="title-h1">Gallery Section</h1>
                     </div>
                 </div>
                 <div className="gallery-container">

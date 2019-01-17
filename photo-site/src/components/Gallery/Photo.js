@@ -27,7 +27,7 @@ class Photo extends React.Component {
                 <a href={this.props.photo.links.html}>
                     <img
                         ref={this.imageRef}
-                        alot={description}
+                        alt={description}
                         src={urls.small}
                     />
                 </a>

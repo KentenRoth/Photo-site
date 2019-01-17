@@ -3,8 +3,8 @@ import "./Equipment.css";
 
 const Equipment = () => {
     return (
-        <div className="equipment-header container">
-            <h1 className="title-header equipment">Equipment</h1>
+        <div className="title-header container">
+            <h1 className="title-h1 equipment">Equipment</h1>
             <div className="row equipment-row">
                 <div className="col-4 col-left">
                     <div className="equip-icon">
