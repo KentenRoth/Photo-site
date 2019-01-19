@@ -26,3 +26,20 @@
     border-left: solid 1px black;
     border-right: solid 1px black;
 }
+
+@media only screen and (max-width: 380px) {
+    .equip-icon {
+        margin-top: 20px;
+    }
+
+    .col-mid {
+        border-left: none;
+        border-right: none;
+        border-top: solid 1px black;
+        border-bottom: solid 1px black;
+    }
+
+    .equip-content {
+        padding: 0px 5px 15px 15px;
+    }
+}

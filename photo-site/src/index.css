@@ -77,4 +77,8 @@ button {
         max-width: 370px;
         margin: 0 auto;
     }
+
+    [class*="col-"] {
+        width: 100%;
+    }
 }
