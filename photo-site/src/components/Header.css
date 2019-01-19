@@ -52,10 +52,17 @@
     transform: scale(1.1);
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 415px) {
     .content-box {
-        max-width: 370px;
+        max-width: 100%;
         margin: 200px auto;
+        padding: 0 20px 0 20px;
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .content-box {
+        margin: 60px auto;
     }
 }

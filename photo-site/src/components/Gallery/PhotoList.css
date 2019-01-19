@@ -14,3 +14,9 @@
 .photo-list img:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 415px) {
+    .photo-list {
+        justify-items: center;
+    }
+}
