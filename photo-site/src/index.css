@@ -71,3 +71,10 @@ button {
     margin: 0 auto;
     padding: 0 1.6rem;
 }
+
+@media only screen and (max-width: 380px) {
+    .container {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+}

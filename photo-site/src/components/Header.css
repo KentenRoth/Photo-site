@@ -51,3 +51,11 @@
 .header-button:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 380px) {
+    .content-box {
+        max-width: 370px;
+        margin: 200px auto;
+        text-align: center;
+    }
+}
