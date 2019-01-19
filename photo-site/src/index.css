@@ -72,6 +72,15 @@ button {
     padding: 0 1.6rem;
 }
 
+@media only screen and (max-width: 1025px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+}
+
 @media only screen and (max-width: 415px) {
     .container {
         max-width: 370px;
