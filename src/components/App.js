@@ -4,7 +4,6 @@ import Header from "./Header";
 import About from "./About/About";
 import Gallery from "./Gallery/Gallery";
 import Footer from "./Footer";
-import "./App.css";
 
 class App extends Component {
     render() {
