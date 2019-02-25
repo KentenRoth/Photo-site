@@ -9,6 +9,10 @@
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .content-box {
     color: rgb(182, 182, 182);
     height: 20rem;

@@ -16,9 +16,9 @@ const Nav = () => {
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <form>
-                        <button onClick={toGallery()}>Images</button>
-                    </form>
+                    <a href="#gallery">
+                        <button>Images</button>
+                    </a>
                 </li>
             </ul>
         </div>

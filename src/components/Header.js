@@ -16,14 +16,9 @@ const Header = () => {
                     </h1>
                     <h2 className="header-h2">-Ambrose Bierce</h2>
                     <div>
-                        <form>
-                            <button
-                                className="header-button"
-                                onClick={toGallery()}
-                            >
-                                My Gallery
-                            </button>
-                        </form>
+                        <a href="#gallery">
+                            <button className="header-button">Images</button>
+                        </a>
                     </div>
                 </div>
             </div>
