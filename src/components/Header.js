@@ -2,10 +2,6 @@ import React from "react";
 import "./Header.css";
 
 const Header = () => {
-    const toGallery = () => {
-        window.location = "#gallery";
-    };
-
     return (
         <div className="header">
             <div className="container">

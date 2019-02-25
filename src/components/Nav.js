@@ -2,10 +2,6 @@ import React from "react";
 import "./Nav.css";
 
 const Nav = () => {
-    const toGallery = () => {
-        window.location = "#gallery";
-    };
-
     return (
         <div className="navbar">
             <ul className="navbar-ul">
